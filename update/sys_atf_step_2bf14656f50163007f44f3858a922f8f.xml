@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Impersonate the user: Beth Anglin with user Id: beth.anglin</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 20:53:51</sys_created_on>
+        <sys_id>2bf14656f50163007f44f3858a922f8f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">9e71cfa5190523007f44dc76a400c050</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">9e71cfa5190523007f44dc76a400c050</sys_scope>
+        <sys_update_name>sys_atf_step_2bf14656f50163007f44f3858a922f8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 20:54:38</sys_updated_on>
+        <table/>
+        <test display_value="My First Loaner Request ATF Test">06c1c256f50163007f44f3858a922fa7</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=2bf14656f50163007f44f3858a922f8f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>2bf14656f50163007f44f3858a922f8f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 20:53:51</sys_created_on>
+        <sys_id>f4220656f50163007f44f3858a922fe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 20:53:51</sys_updated_on>
+        <value>46d44a23a9fe19810012d100cca80666</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+</record_update>
